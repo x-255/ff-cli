@@ -1,7 +1,7 @@
 export { version as VERSION } from '../../package'
 
 // 找到用户的根目录
-const HOME = process.env[process.platform === 'win32' ? 'USERPROFILE' : 'HOME ']
+const HOME = process.env[process.platform === 'win32' ? 'USERPROFILE' : 'HOME']
 
 // 配置文件
 export const RC = `${HOME}/.ffclirc`

@@ -15,7 +15,7 @@ Object.defineProperty(exports, 'VERSION', {
 
 
 // 找到用户的根目录
-var HOME = process.env[process.platform === 'win32' ? 'USERPROFILE' : 'HOME '];
+var HOME = process.env[process.platform === 'win32' ? 'USERPROFILE' : 'HOME'];
 
 // 配置文件
 var RC = exports.RC = HOME + '/.ffclirc';
